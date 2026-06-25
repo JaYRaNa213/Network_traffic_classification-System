@@ -148,13 +148,5 @@ http://localhost:5000
 
 ---
 
-## Academic Credits & Research Details
 
-This research platform was developed and authored by:
-* **Researcher:** Abhishek (Roll No: 2308390109002)
-* **Institution:** Rajkiya Engineering College, Kannauj
-* **Academic Guidance:** Mr. Abhishek Bajpai
-* **Academic Year:** 2024-2025
 
-*This project serves as a comprehensive demonstration of pushing the boundaries of machine learning methodologies in cybersecurity and network telemetry classification.*
-#
