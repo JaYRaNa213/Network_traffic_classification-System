@@ -1,0 +1,58 @@
+/* static/css/animations.css */
+@keyframes slideUpFade {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulseBorder {
+
+    0%,
+    100% {
+        border-color: rgba(99, 102, 241, 0.2);
+    }
+
+    50% {
+        border-color: rgba(99, 102, 241, 0.8);
+    }
+}
+
+@keyframes progressFill {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes flowAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.fade-in {
+    animation: slideUpFade 0.5s ease-out forwards;
+}
